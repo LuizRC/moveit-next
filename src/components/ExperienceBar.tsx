@@ -7,11 +7,12 @@ export function ExperienceBar() {
     const { currentExperience, experienceToNextLevel } = useContext(ChallengesContext);
 
     const percentToNextleve = Math.round(currentExperience * 100) / experienceToNextLevel;
+
     return(
         <header className={styles.experienceBar}>
             <span>0 xp</span>
             <div>
-                <div style={{width:`${percentToNextleve}`}} />
+                <div style={{width:`${percentToNextleve}%`}} />
                 <span className={styles.currentExperience} style={{left:`${percentToNextleve}`}}>
                     {currentExperience}xp
                 </span>
