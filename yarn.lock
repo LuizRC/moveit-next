@@ -211,6 +211,11 @@
   resolved "https://registry.yarnpkg.com/@rushstack/eslint-patch/-/eslint-patch-1.0.8.tgz#be3e914e84eacf16dbebd311c0d0b44aa1174c64"
   integrity sha512-ZK5v4bJwgXldAUA8r3q9YKfCwOqoHTK/ZqRjSeRXQrBXWouoPnS4MQtgC4AXGiiBuUu5wxrRgTlv0ktmM4P1Aw==
 
+"@types/js-cookie@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@types/js-cookie/-/js-cookie-3.0.0.tgz#6dcc3ab167251ace6964310789d8ea80f732a82c"
+  integrity sha512-GDVwSzwBm4OdQajFCit2UMxskZVcOhs/hYeOvzVW1R+iW6ZOVIBgD+RSrYCtPT0pNBnwNgRaoPPKfoXcwDo+hg==
+
 "@types/json5@^0.0.29":
   version "0.0.29"
   resolved "https://registry.yarnpkg.com/@types/json5/-/json5-0.0.29.tgz#ee28707ae94e11d2b827bcbe5270bcea7f3e71ee"
